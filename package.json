@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanierolo/Portfolio.git"
+  },
+  "author": "Melanie Rodas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melanierolo/Portfolio/issues"
+  },
+  "homepage": "https://github.com/melanierolo/Portfolio#readme"
+}
