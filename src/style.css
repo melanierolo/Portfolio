@@ -23,7 +23,11 @@ body {
     padding: 10px;
     text-decoration: none;    
 }
-
+/*navbar anchor -To remove the underline from all hyperlinks on a page*/
+.navbar__item a {
+    text-decoration: none;    
+    color: black;
+}
 /* navbar responsive*/
 
   
