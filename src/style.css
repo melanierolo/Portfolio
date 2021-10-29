@@ -1,20 +1,26 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
   }
+
 /*navbar css */
 .navbar{
     overflow: hidden;
     background-color: #8EC5FC;
     background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 100%);
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);   
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    position:sticky;    /*sticky header*/
+    top:0;              /*sticky header*/
 }
 
 .navbar_logo{
+   display: block;
    float:left;
    font-size: 20px; 
    color: blue;
    margin: 5px;
+   letter-spacing: 3px; 
 }
 
 .navbar__item{
@@ -28,6 +34,10 @@ body {
     text-decoration: none;    
     color: black;
 }
-/* navbar responsive*/
+
+/* */
+.content{
+    background-color:#fff;
+}
 
   
