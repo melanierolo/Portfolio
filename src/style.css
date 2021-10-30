@@ -35,6 +35,11 @@ body {
     color: black;
 }
 
+/* link colorr*/
+.navbar__item a:hover {
+    color: #f1f1f1;
+  }
+
 /* */
 .content{
     background-color:#fff;
