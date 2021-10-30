@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--menu icon-->
     <link rel="preconnect" href="https://fonts.googleapis.com">                 <!--Letter logo-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        <!--Letter logo-->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> <!--Letter logo-->
@@ -14,7 +15,7 @@
     <script src="main.js" type="module"></script>
     <header class="navbar">
         <ul><!--li*3.navbar__item-->
-            <li class="navbar_logo">Melanie Rodas</li>
+            <li id="active" class="navbar_logo">Melanie Rodas</li>
             <li class="navbar__item">
                 <a href="/src/assets/pages/project.html" >Project</a>
             </li>
@@ -24,6 +25,9 @@
             <li class="navbar__item">
                 <a href="index.html">Home</a>
             </li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </ul>
         
     </header>
