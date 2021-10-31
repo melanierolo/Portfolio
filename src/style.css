@@ -4,16 +4,14 @@ body {
     padding: 0;
   }
 
-/*navbar css */
+ /*navbar css web*/
 .navbar{
     overflow: hidden;
     background-color: #8EC5FC;
     background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 100%);
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     position:sticky;    /*sticky header*/
-    top:0;              /*sticky header*/
-    padding: 10px  10px;
-    text-align: center     /*Center-align text*/         
+    top:0;              /*sticky header*/       
 }
 
 .navbar_logo{
@@ -22,23 +20,26 @@ body {
    font-size: 25px; 
    color: blue;
    margin: 5px;
+   padding: 20px 20px 20px 20px;
    letter-spacing: 3px;
    font-family: 'Abril Fatface', cursive;
+   padding: 20px 0px 20px 10px;
 }
 
 .navbar__item{
-    display: block;
-    float : right;
-    padding: 10px;
-    font-size: 20px;
-    padding-left:40px;
-    padding-right: 40px;
-    text-decoration: none;    
+   display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    float: right;  
+    font-size: 20px;  
 }
 /*navbar anchor -To remove the underline from all hyperlinks on a page*/
 .navbar__item a {
     text-decoration: none;    
     color: black;
+    padding: 20px 10px 20px 10px;
 }
 
 /* link colorr*/
@@ -47,15 +48,82 @@ body {
   }
 /*topnav - responsive*/
 /*menu icon or Hamburger button*/
-.navbar .icon {
+.navbar .open_menu {
   display: none;
   font-size:25px;
+  background: none;
+  cursor: pointer;
+  padding:25px 20px 25px 20px;
+  color: whitesmoke;
 }
+
+.navbar .close_menu {
+  display: none;
+  font-size:25px;
+  background: none;
+  cursor: pointer;
+  padding:25px 20px 25px 20px;
+  color: whitesmoke;
+}
+/*icon menu - mobile*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .close_menu {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .close_menu {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .navbar li:not(:first-child) {display: none;}
-  .navbar a.icon {
+  .navbar__item {
+    display: none;
+  }
+  .navbar button.open_menu {
     float: right;
     display: block;
+    border: none;
   }
 }
 
@@ -77,5 +145,6 @@ body {
 .content{
     background-color:#fff;
 }
+
 
   

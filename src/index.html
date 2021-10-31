@@ -14,25 +14,28 @@
 <body>
     <script src="main.js" type="module"></script>
     <header class="navbar">
-        <ul><!--li*3.navbar__item-->
-            <li id="active" class="navbar_logo">Melanie Rodas</li>
-            <li class="navbar__item">
-                <a href="/src/assets/pages/project.html" >Project</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/src//assets/pages/about.html">About me</a>
-            </li>
-            <li class="navbar__item">
-                <a href="index.html">Home</a>
-            </li>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </ul>
-        
+        <li id="active" class="navbar_logo">Melanie Rodas</li>
+        <button class="open_menu"><i class="fa fa-bars" ></i></button>
+            <ul class="navbar__item"><!--li*3.navbar__item--> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/src//assets/pages/about.html">About me</a></li>
+                <li><a href="/src/assets/pages/project.html" >Projects</a></li>
+            </ul>       
     </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="close_menu" style="cursor:pointer" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">About me</a>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
+        </div>
+      </div>
+
     
         <main class = "content">
+            
             <p>What is Lorem Ipsum?
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <p>What is Lorem Ipsum?
@@ -80,7 +83,7 @@
             <p>What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
          </main>
-   
+         
     <footer>      
     </footer>
 </body>
