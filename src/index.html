@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        <!--Letter logo-->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> <!--Letter logo-->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style-footer.css"/>
 </head>
 <body>
     <script src="main.js" type="module"></script>
-    <header class="navbar">
+    <header class="navbar"><!--header css media queries in responsive design-->
         <li id="active" class="navbar_logo">Melanie Rodas</li>
         <button class="open_menu"><i class="fa fa-bars" ></i></button>
             <ul class="navbar__item"><!--li*3.navbar__item--> 
@@ -26,9 +27,9 @@
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="close_menu" style="cursor:pointer" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-          <a href="#">Home</a>
-          <a href="#">Projects</a>
-          <a href="#">About me</a>
+          <a href="index.html">Home</a>
+          <a href="/src/assets/pages/project.html">Projects</a>
+          <a href="/src/assets/pages/project.html">About me</a>
           <span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
         </div>
       </div>
@@ -84,7 +85,14 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
          </main>
          
-    <footer>      
+    <footer>
+        <div class="container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+          </div>     
     </footer>
 </body>
 </html>

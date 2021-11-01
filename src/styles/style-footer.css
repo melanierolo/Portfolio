@@ -1,0 +1,22 @@
+.item1{background:LightSkyBlue;}
+.item2{background:LightSalmon;}
+
+.item3 {
+  background: PaleTurquoise;
+}
+
+.item4{background:LightPink;}
+.item5{
+    background:PaleGreen;
+    grid-column: 1/5;
+}
+
+.container {
+  font-size: 40px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+}

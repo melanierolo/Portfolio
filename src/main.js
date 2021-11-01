@@ -1,3 +1,4 @@
+// navbar and mobile menu
 const mainMenu = document.querySelector('.navbar__item');
 const closeMenu = document.querySelector('.close_menu');
 const openMenu = document.querySelector('.open_menu');
