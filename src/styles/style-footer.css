@@ -18,21 +18,23 @@ footer {
 
 .footer__link1{
   grid-area:link1;
-  
+  align-self: center;
 }
 
 .footer__link2 {
   grid-area:link2;
+  align-self: center;
 }
 
 .footer__link3{
   grid-area:link3;
+  align-self: center;
+
 }
 .footer__social{
   grid-area: social;
+  align-self: center;
 }
-
-
 
 .footer__copyright{
     background:#451A3E;
@@ -40,7 +42,8 @@ footer {
     text-align: left;
     font-size: 15px;
     color:whitesmoke;
-    height: 40px;
+    height: auto;
+    padding-left:20px;
     grid-area:copyright;
 }
 
@@ -61,7 +64,7 @@ footer {
   padding: 20px 10px 20px 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 .container{
   color: whitesmoke;
   display:grid;
@@ -84,5 +87,6 @@ footer {
   .footer__copyright{
     font-size: 10px;
     text-align:left;
+    height: 40px;
   }
 }
