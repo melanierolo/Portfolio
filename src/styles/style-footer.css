@@ -6,7 +6,6 @@ footer {
 
 .footer__logo{
   grid-area: logo;
-  background: #270a33;
   display: block;
   float:left;
   font-size: 25px; 
@@ -19,22 +18,21 @@ footer {
 
 .footer__link1{
   grid-area:link1;
-  background: #270a33;
+  
 }
 
 .footer__link2 {
   grid-area:link2;
-  background: #270a33;
 }
 
 .footer__link3{
   grid-area:link3;
-  background: #270a33;
 }
 .footer__social{
   grid-area: social;
-  background: #270a33;
 }
+
+
 
 .footer__copyright{
     background:#451A3E;
@@ -49,6 +47,7 @@ footer {
 .container {
   padding: 0;
   width: 100%;
+  background: #270a33;
   display: grid;
   grid-template-rows: 2fr 1fr;
   grid-template-areas: 
