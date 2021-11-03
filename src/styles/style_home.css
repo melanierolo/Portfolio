@@ -9,21 +9,42 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-    padding: 300px 200px 400px 200px;
+    padding: 200px 200px 300px 200px;
     background-position: center center;
-    color:whitesmoke;
-    letter-spacing: 3px;
-    font-family: 'Abril Fatface', cursive;
-    text-align: center;
-    font-size: 30px;
   }
 
-/*
   .home_welcome{
-    background-color: lightgrey;
-    opacity: 0.8;
+    position: inherit;
+    padding:40px 10px 40px 10px;
+    width: fit-content;
     text-align: center;
-    border: 0px solid silver;
-  
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Libre Baskerville', serif;
+    color:whitesmoke;
+  	background: rgba(0,0,0,0.4);  
   }
-*/
+
+  .home_title{
+    font-size: 5vw;
+  }
+
+  .home_comment{
+    font-size: 2vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .home_title{
+      font-size: 25px;
+    }
+    .home_comment{
+      font-size: 15px;
+      text-align: justify;
+    }
+    .home_welcome{
+     padding: 20px 5px 20px 5px;
+    }
+
+    .home_imagen {
+      padding: 100px 50px 300px 50px;
+    }
+  }
