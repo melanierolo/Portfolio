@@ -9,6 +9,8 @@ footer {
   display: block;
   float:left;
   font-size: 25px; 
+  letter-spacing: 3px;
+  font-family: 'Abril Fatface', cursive;
   color:whitesmoke;
   padding: 20px 20px 20px 20px;
   

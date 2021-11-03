@@ -8,8 +8,12 @@ body {
 .navbar{
     overflow: hidden;
     background-color: #8EC5FC;
-    background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 100%);
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    /*background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 100%);*/
+    /*box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);*/
+    background-image: -webkit-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+    background-image: -moz-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+    background-image: -o-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+    background-image: linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
     position:sticky;    /*sticky header*/
     top:0;              /*sticky header*/       
 }
@@ -18,7 +22,7 @@ body {
    display: block;
    float:left;
    font-size: 25px; 
-   color: blue;
+   color:whitesmoke;
    margin: 5px;
    padding: 20px 20px 20px 20px;
    letter-spacing: 3px;
