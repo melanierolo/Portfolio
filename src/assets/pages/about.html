@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="/src/styles/style_header.css"/>
     <link rel="stylesheet" href="/src/styles/style_about.css"/>
     <link rel="stylesheet" href="/src/styles/style-footer.css"/>
+    <!--Timeline-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/467fd03d8b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -33,24 +35,57 @@
         <a href="javascript:void(0)" class="close_menu" style="cursor:pointer" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <a href="/src/index.html">Home</a>
-          <a href="/src//assets/pages/about.html">About me</a>
+          <a href="/src/assets/pages/about.html">About me</a>
           <a href="/src/assets/pages/project.html">Projects</a>
           <span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
         </div>
       </div>
     
     <main class = "content">
-        <section class="home_imagen">
-            <div class="home_welcome">
-                <p class="home_title">Hello, I'm Melanie Rodas</p>
-                <hr>
-                <p class = "home_comment">A Web Developer who love to learn about new technologies and coding</p>
+        
+        <section class = "about_profile">
+        <p>Let me introduce myself:
+            I’m Melanie Rodas. I’ve worked in Claro Perú like a intern Pre-Professional and Pro—Professional in a Planning Data Network Province department, which allowed me to see different types of monitoring platforms such U2000(microwave RTN), dashboard about SD-WAN, etc. So, I started to ask myself, how I can do that? The answer was code world and I decided to learn more about it.
+        </p>
+        <p>   
+        Currently I'm taking a Professional Certificate in Coding: Full Stack Development with MERN. Thanks to this, I've been learning about design and the fundamental pillars for the generation of an optimal solution to make a web page. Here you will find my personal portfolio with information about my projects.
+        </p>
+        </section>
+        
+        <section class = "about_education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Education</h6>
+                                <div id="content">
+                                    <ul class="timeline">
+                                        <li class="event" data-date="2014-2019">
+                                            <h3>Universidad Nacional de Ingeniería</h3>
+                                            <p>Bachelor of Science in Telecommunications Engineering</p>
+                                        </li>
+                                        <li class="event" data-date="2021">
+                                            <h3>Asociación Cultural Peruano Británica - INGLÉS</h3>
+                                            <p>Intermediate-Advanced</p>
+                                        </li>
+                                        <li class="event" data-date="Agost 2021 - Now">
+                                            <h3>MITxPRO</h3>
+                                            <p>Full Stack Development with MERN</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>  
-         </main>
+         
+        </section>
+    </main>
          
     <footer>
-        <div class="container">
+        <div class="container_footer">
             <div class="footer__logo">Melanie Rodas</div>
             <div class="footer__link1"><a></a></div>
             <div class="footer__link2"><a></a></div>
