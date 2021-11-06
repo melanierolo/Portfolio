@@ -1,6 +1,7 @@
 .container_footer{
     color: whitesmoke;
 }
+
 /*bootstrap CSS-timeline*/
 .about_education{
     padding-top:20px;
@@ -68,8 +69,8 @@
 }
 
 .timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px #727cf5;
-    box-shadow: 0 0 0 3px #727cf5;
+    -webkit-box-shadow: 0 0 0 3px #270a33;
+    box-shadow: 0 0 0 3px #270a33;
     left: -55.8px;
     background: #fff;
     border-radius: 50%;
