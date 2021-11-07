@@ -7,14 +7,14 @@
 .card_container{
     display:flex;
     padding: 30px 50px 30px 50px;
-    gap:20px;
+    gap:0px 40px;
     flex-wrap: wrap;/*flex items will wrap onto multiple lines, from top to bottom.*/
     align-items: center;
 }
 
 .card_content{
     align-content: center;
-    width: 500px;
+    max-width: 500px;
 }
 
 .card_social{
@@ -26,11 +26,9 @@
     overflow: hidden;
     text-align: center;
 }
-.card_tittle{
-    font-size:2vw;
-}
+
 .card_text{
-    font-size:18px;
+    font-size:2vh;
 }
 
 .card_img{
