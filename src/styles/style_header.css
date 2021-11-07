@@ -48,6 +48,7 @@ body {
 /* link colorr*/
 .navbar__item a:hover {
     color: #f1f1f1;
+    text-decoration: none; 
   }
 /*topnav - responsive*/
 /*menu icon or Hamburger button*/
