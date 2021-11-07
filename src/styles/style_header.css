@@ -48,11 +48,7 @@ body {
 /* link colorr*/
 .navbar__item a:hover {
     color: #f1f1f1;
-<<<<<<< HEAD
-    text-decoration: none; 
-=======
     text-decoration: none;  
->>>>>>> origin/develop
   }
 /*topnav - responsive*/
 /*menu icon or Hamburger button*/
