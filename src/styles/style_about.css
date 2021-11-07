@@ -1,11 +1,68 @@
+/* card - profile*/
+.card_profile{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.card_container{
+    display:flex;
+    padding: 30px 50px 30px 50px;
+    gap:20px;
+    flex-wrap: wrap;/*flex items will wrap onto multiple lines, from top to bottom.*/
+    align-items: center;
+}
+
+.card_content{
+    align-content: center;
+    width: 500px;
+}
+
+.card_social{
+    border-radius: 30px;
+    box-shadow: 0px 20px 70px 0px rgba(0,0,0,0.21);
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card_tittle{
+    font-size:2vw;
+}
+.card_text{
+    font-size:18px;
+}
+
+.card_img{
+    width: 70%;
+    height: auto;
+}
+
+.card_img .card_social{
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    margin-top:-139px;
+    font-weight: 600;
+    z-index:1;
+}
+
+.card_img  a{
+    text-decoration: none;
+
+}
+
+
+/*FOOTER*/
 .container_footer{
     color: whitesmoke;
 }
 /*bootstrap CSS-timeline*/
 .about_education{
-    padding-top:20px;
-    padding-bottom: 20px ;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
+
 @media (max-width: 767px) {
     .timeline {
         max-width: 98%;
