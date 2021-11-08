@@ -13,8 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <!--Letter home_welcome-->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&display=swap" rel="stylesheet"> <!--Letter home_welcome-->
     <link rel="stylesheet" href="/src/styles/style_header.css"/>
-    <link rel="stylesheet" href="/src/styles/style_about.css"/>
+    <link rel="stylesheet" href="/src/styles/style_projects.css"/>
     <link rel="stylesheet" href="/src/styles/style-footer.css"/>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/467fd03d8b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -40,13 +42,36 @@
       </div>
     
     <main class = "content">
-        <section class="home_imagen">
-            <div class="home_welcome">
-                <p class="home_title">Hello, I'm Melanie Rodas</p>
-                <hr>
-                <p class = "home_comment">A Web Developer who love to learn about new technologies and coding</p>
-            </div>
-        </section>  
+        <section class="projects">
+            <h1>Projects</h1>
+            <article class="container_projects">
+                    <div class="card_project" style="width: 18rem;">
+                        <!--<img src="..." class="card-img-top" alt="...">-->
+                        <div class="card-body">
+                        <h5 class="card-title">Eye-Movement</h5>
+                        <p class="card-text">In this project, someone is watching your movement when you change the mouse to another position</p>
+                        <a href="https://github.com/melanierolo/Eye-Movement" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                    <div class="card_project" style="width: 18rem;">
+                        <!--<img src="..." class="card-img-top" alt="...">-->
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                    <div class="card_project" style="width: 18rem;">
+                        <!--<img src="..." class="card-img-top" alt="...">-->
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+            </article>  
+        </section>
+       
          </main>
          
     <footer>
