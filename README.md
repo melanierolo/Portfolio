@@ -5,8 +5,10 @@ It's a repository to show all my projects.That I have worked on MIT Full Stack D
 
 ## How to run:
 
-1. Fork and download the project
-2. Open index.html file in the browser
+1. Download the project(click a code button and download zip)
+2. Extract All to get data from inside a compressed folder.
+3. Open a file Portfolio-main on Visual Studio Code
+4. Open index.html file in the browser
 
 ## License information: 
 
