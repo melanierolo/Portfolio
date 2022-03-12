@@ -28,9 +28,16 @@
       rel="stylesheet"
     />
     <!--Letter home_welcome-->
-    <link rel="stylesheet" href="styles/style_header.css" />
-    <link rel="stylesheet" href="styles/style_home.css" />
-    <link rel="stylesheet" href="styles/style-footer.css" />
+    <link rel="stylesheet" href="src/styles/style_header.css" />
+    <link rel="stylesheet" href="src/styles/style_projects.css" />
+    <link rel="stylesheet" href="src/styles/style-footer.css" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/467fd03d8b.js"
       crossorigin="anonymous"
@@ -60,8 +67,8 @@
       >
       <div class="overlay-content">
         <a href="index.html">Home</a>
-        <a href="/src/about.html">About me</a>
-        <a href="/src/project.html">Projects</a>
+        <a href="about.html">About me</a>
+        <a href="project.html">Projects</a>
         <span
           style="font-size: 30px; cursor: pointer"
           onclick="openNav()"
@@ -70,14 +77,67 @@
     </div>
 
     <main class="content">
-      <section class="home_imagen">
-        <div class="home_welcome">
-          <p class="home_title">Hello, I'm Melanie Rodas</p>
-          <hr />
-          <p class="home_comment">
-            A Web Developer who love to learn about new technologies and coding.
-          </p>
-        </div>
+      <section class="projects">
+        <h1 class="page_tittle">Projects</h1>
+        <article class="container_projects">
+          <div class="card_project" style="width: 18rem">
+            <img
+              src="src/assets/images/PacMen.PNG"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">PacMen-Exercise</h5>
+              <p class="card-text">
+                You could add a lot of PacMen on a page and they could move
+                ramdonly.
+              </p>
+              <a
+                href="https://github.com/melanierolo/PacMen-Exercise"
+                class="btn btn-primary"
+                >More</a
+              >
+            </div>
+          </div>
+          <div class="card_project" style="width: 18rem">
+            <img
+              src="src/assets/images/eye-mov.PNG"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eye-Movement</h5>
+              <p class="card-text">
+                In this project, someone is watching your movement when you
+                change the mouse to another position
+              </p>
+              <a
+                href="https://github.com/melanierolo/Eye-Movement"
+                class="btn btn-primary"
+                >More</a
+              >
+            </div>
+          </div>
+          <div class="card_project" style="width: 18rem">
+            <img
+              src="src/assets/images/track_bus.PNG"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Real Time Bus Tracker</h5>
+              <p class="card-text">
+                Used a mapboxgl library to add a marker to the map between
+                Harvard and MIT
+              </p>
+              <a
+                href="https://github.com/melanierolo/Real-Time-Bus-Tracker"
+                class="btn btn-primary"
+                >More</a
+              >
+            </div>
+          </div>
+        </article>
       </section>
     </main>
 
