@@ -1,146 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio</title>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <!--menu icon-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <!--Letter logo-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <!--Letter logo-->
-        <link
-          href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
-          rel="stylesheet"
-        />
-        <!--Letter logo-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <!--Letter home_welcome-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <!--Letter home_welcome-->
-        <link
-          href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&display=swap"
-          rel="stylesheet"
-        />
-        <!--Letter home_welcome-->
-        <link rel="stylesheet" href="src/styles/style_header.css" />
-        <link rel="stylesheet" href="src/styles/style_home.css" />
-        <link rel="stylesheet" href="src/styles/style-footer.css" />
-        <script
-          src="https://kit.fontawesome.com/467fd03d8b.js"
-          crossorigin="anonymous"
-        ></script>
-        <!--Timeline-->
-        <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
-        />
-        <script
-          src="https://kit.fontawesome.com/467fd03d8b.js"
-          crossorigin="anonymous"
-        ></script>
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--menu icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--Letter logo-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Letter logo-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <!--Letter logo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--Letter home_welcome-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Letter home_welcome-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <!--Letter home_welcome-->
+    <link rel="stylesheet" href="src/styles/style_header.css" />
+    <link rel="stylesheet" href="src/styles/style_home.css" />
+    <link rel="stylesheet" href="src/styles/style-footer.css" />
+    <script
+      src="https://kit.fontawesome.com/467fd03d8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Timeline-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/467fd03d8b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <script src="main.js" type="module"></script>
-    <header class="navbar"><!--header css media queries in responsive design-->
-        <li id="active" class="navbar_logo">Melanie Rodas</li>
-        <button class="open_menu"><i class="fa fa-bars" ></i></button>
-            <ul class="navbar__item"><!--li*3.navbar__item--> 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="project.html" >Projects</a></li>
-            </ul>       
+    <header class="navbar">
+      <!--header css media queries in responsive design-->
+      <li id="active" class="navbar_logo">Melanie Rodas</li>
+      <button class="open_menu"><i class="fa fa-bars"></i></button>
+      <ul class="navbar__item">
+        <!--li*3.navbar__item-->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="project.html">Projects</a></li>
+      </ul>
     </header>
 
     <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="close_menu" style="cursor:pointer" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="index.html">Home</a>
-          <a href="about.html">About me</a>
-          <a href="project.html">Projects</a>
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
+      <a
+        href="javascript:void(0)"
+        class="close_menu"
+        style="cursor: pointer"
+        onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="project.html">Projects</a>
+        <span
+          style="font-size: 30px; cursor: pointer"
+          onclick="openNav()"
+        ></span>
+      </div>
+    </div>
+
+    <main class="content">
+      <section class="aboutme">
+        <div class="container">
+          <div class="card-deck mt-4 mb-4">
+            <div class="card-group">
+              <div class="card border-0 align-self-center">
+                <div class="card-body">
+                  <h1 class="card-title font-weight-bold ">ABOUT ME</h1>
+                  <p class="card-text">
+                    I’m Melanie Rodas,Bachelor of Telecommunications Engineering
+                    responsible, resilient, proactive, sociable and creative,
+                    with ease of adaptation and ability to work as a team, with
+                    initiative to achieve the objectives in the time set and
+                    with excellence. Leadership, organization and willingness to
+                    work as a team. These qualities, together with my solid
+                    academic training, allow me to perform well in the work area
+                    related to Telecommunications Engineering.
+                  </p>
+                  <p class="card-text">
+                    Currently I'm taking a Professional Certificate in Coding:
+                    Full Stack Development with MERN. Thanks to this, I've been
+                    learning about design and the fundamental pillars for the
+                    generation of an optimal solution to make a web page. Here
+                    you will find my personal portfolio with information about
+                    my projects.
+                  </p>
+                </div>
+
+              </div>
+              <div class="card bg-dark text-white border-0 text-white bg-white">
+                <img
+                  class="card-img-top w-75 p-3 mx-auto"
+                  src="src/assets/images/MELANIE_RODAS2.jpg"
+                  alt="Professional image"
+                />
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="about_education">
+        <div class="container">
+          <div class="row mt-4 mb-4"">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title font-weight-bold">EDUCATION</h1>
+                  <div id="content">
+                    <ul class="timeline">
+                      <li class="event" data-date="Agost 2021 - Now">
+                        <h3>MITxPRO</h3>
+                        <p>Full Stack Development with MERN</p>
+                      </li>
+                      <li class="event" data-date="Finished 2021">
+                        <h3>Asociación Cultural Peruano Británica - INGLÉS</h3>
+                        <p>Intermediate-Advanced</p>
+                      </li>
+                      <li class="event" data-date="Finished 2019">
+                        <h3>Universidad Nacional de Ingeniería</h3>
+                        <p>
+                          Bachelor of Science in Telecommunications Engineering
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container_footer">
+        <div class="footer__logo">Melanie Rodas</div>
+        <div class="footer__link1"><a></a></div>
+        <div class="footer__link2"><a></a></div>
+        <div class="footer__link3"><a></a></div>
+        <div class="footer__social">
+          <a href="https://github.com/melanierolo"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://pe.linkedin.com/in/melanie-rodas-l%C3%B3pez-a526b2126"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a>mrodasl@uni.pe</a>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2021 Melanie Rodas, All rights reserved</p>
         </div>
       </div>
-    
-    <main class = "content">
-        
-        <section class="card_profile">
-            <div class="card_container">
-                <div class="card_content">
-                    <div class="card_social">
-                        <img src="src/assets/images/MELANIE_RODAS.jpg" class="card_img"></img>
-                        <div class="card_text">                        
-                            <a href="https://github.com/melanierolo"><i class="fab fa-github"></i></a>
-                            <a href="https://pe.linkedin.com/in/melanie-rodas-l%C3%B3pez-a526b2126"><i class="fab fa-linkedin"></i></a>
-                            <a>mrodasl@uni.pe</a>
-                        </div>
-                    </div>
-                </div>      
-                <div class="card_content">
-                    <div class="card_text">
-                        <p class="card_paragragh">I’m Melanie Rodas,Bachelor of Telecommunications Engineering responsible, resilient, proactive, sociable and creative, with ease of adaptation and ability to work as a team, with initiative to achieve the objectives in the time set and with excellence. Leadership, organization and willingness to work as a team. These qualities, together with my solid academic training, allow me to perform well in the work area related to Telecommunications Engineering.
-                        </p>
-                        <p>Currently I'm taking a Professional Certificate in Coding: Full Stack Development with MERN. Thanks to this, I've been learning about design and the fundamental pillars for the generation of an optimal solution to make a web page. Here you will find my personal portfolio with information about my projects.
-                        </p>
-                    </div>
-                </div>      
-            </div>
-        </section>
-
-        <section class = "about_education">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h6 class="card-title">Education</h6>
-                                <div id="content">
-                                    <ul class="timeline">
-                                        <li class="event" data-date="Agost 2021 - Now">
-                                            <h3>MITxPRO</h3>
-                                            <p>Full Stack Development with MERN</p>
-                                        </li>
-                                        <li class="event" data-date="Finished 2021">
-                                            <h3>Asociación Cultural Peruano Británica - INGLÉS</h3>
-                                            <p>Intermediate-Advanced</p>
-                                        </li>
-                                        <li class="event" data-date="Finished 2019">
-                                            <h3>Universidad Nacional de Ingeniería</h3>
-                                            <p>Bachelor of Science in Telecommunications Engineering</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-        </section>
-    </main>
-         
-    <footer>
-        <div class="container_footer">
-            <div class="footer__logo">Melanie Rodas</div>
-            <div class="footer__link1"><a></a></div>
-            <div class="footer__link2"><a></a></div>
-            <div class="footer__link3"><a></a></div>
-            <div class="footer__social">
-                <a href="https://github.com/melanierolo"><i class="fab fa-github"></i></a>
-                <a href="https://pe.linkedin.com/in/melanie-rodas-l%C3%B3pez-a526b2126"><i class="fab fa-linkedin"></i></a>
-                <a>mrodasl@uni.pe</a>
-            </div>
-            <div class="footer__copyright">
-                <p> © 2021 Melanie Rodas, All rights reserved</p>
-            </div>
-          </div>     
-    </footer>  
-</body>
+    </footer>
+  </body>
 </html>
