@@ -1,72 +1,72 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-  }
-
- /*navbar css web*/
-.navbar{
-    overflow: hidden;
-    background-color: #8EC5FC;
-    /*background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 100%);*/
-    /*box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);*/
-    background-image: -webkit-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
-    background-image: -moz-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
-    background-image: -o-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
-    background-image: linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
-    position:sticky;    /*sticky header*/
-    top:0;              /*sticky header*/       
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
 }
 
-.navbar_logo{
-   display: block;
-   float:left;
-   font-size: 25px; 
-   color:whitesmoke;
-   margin: 5px;
-   padding: 20px 20px 20px 20px;
-   letter-spacing: 3px;
-   font-family: 'Abril Fatface', cursive;
-   padding: 20px 0px 20px 10px;
+/*navbar css web*/
+.navbar {
+  overflow: hidden;
+  background-color: #8ec5fc;
+  /*background-image: linear-gradient(315deg, #8EC5FC 0%, #E0C3FC 100%);*/
+  /*box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);*/
+  background-image: -webkit-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  background-image: -moz-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  background-image: -o-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  background-image: linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  position: sticky; /*sticky header*/
+  top: 0; /*sticky header*/
 }
 
-.navbar__item{
-   display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 20px 10px 20px 10px;
-    float: right;  
-    font-size: 20px;  
+.navbar_logo {
+  display: block;
+  float: left;
+  font-size: 25px;
+  color: whitesmoke;
+  margin: 5px;
+  padding: 20px 20px 20px 20px;
+  letter-spacing: 3px;
+  font-family: "Abril Fatface", cursive;
+  padding: 20px 0px 20px 10px;
+}
+
+.navbar__item {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0 40px 0 40px;
+  float: right;
+  font-size: 20px;
 }
 /*navbar anchor -To remove the underline from all hyperlinks on a page*/
 .navbar__item a {
-    text-decoration: none;    
-    color: black;
-    padding: 20px 10px 20px 10px;
+  text-decoration: none;
+  color: rgba(163, 163, 163);
+  padding: 20px 10px 20px 10px;
 }
 
 /* link colorr*/
 .navbar__item a:hover {
-    color: #f1f1f1;
-    text-decoration: none;  
-  }
+  color: #f1f1f1;
+  text-decoration: none;
+}
 /*topnav - responsive*/
 /*menu icon or Hamburger button*/
 .navbar .open_menu {
   display: none;
-  font-size:25px;
+  font-size: 25px;
   background: none;
   cursor: pointer;
-  padding:25px 20px 25px 20px;
+  padding: 25px 20px 25px 20px;
   color: whitesmoke;
 }
 
 .navbar .close_menu {
   display: none;
-  font-size:25px;
+  font-size: 25px;
   background: none;
   cursor: pointer;
-  padding:25px 20px 25px 20px;
+  padding: 25px 20px 25px 20px;
   color: whitesmoke;
 }
 /*icon menu - mobile*/
@@ -77,7 +77,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -99,7 +99,8 @@ body {
   transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -111,15 +112,17 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+  .overlay a {
+    font-size: 20px;
+  }
   .overlay .close_menu {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .navbar__item {
     display: none;
   }
@@ -130,13 +133,15 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
+@media screen and (max-width: 670px) {
+  .navbar.responsive {
+    position: relative;
+  }
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-    font-size:25px;
+    font-size: 25px;
   }
   .navbar.responsive a {
     float: none;
@@ -145,9 +150,6 @@ body {
   }
 }
 /* */
-.content{
-    background-color:#fff;
+.content {
+  background-color: #fff;
 }
-
-
-  
