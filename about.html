@@ -42,6 +42,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/styles/style_timeline.css" />
     <script
       src="https://kit.fontawesome.com/467fd03d8b.js"
       crossorigin="anonymous"
@@ -87,7 +88,7 @@
             <div class="card-group">
               <div class="card border-0 align-self-center">
                 <div class="card-body">
-                  <h1 class="card-title font-weight-bold ">ABOUT ME</h1>
+                  <h1 class="card-title font-weight-bold">ABOUT ME</h1>
                   <p class="card-text">
                     I’m Melanie Rodas,Bachelor of Telecommunications Engineering
                     responsible, resilient, proactive, sociable and creative,
@@ -107,7 +108,6 @@
                     my projects.
                   </p>
                 </div>
-
               </div>
               <div class="card bg-dark text-white border-0 text-white bg-white">
                 <img
@@ -117,40 +117,37 @@
                 />
               </div>
             </div>
-            
           </div>
         </div>
       </section>
 
-      <section class="about_education">
-        <div class="container">
-          <div class="row mt-4 mb-4"">
-            <div class="col-md-12">
-              <div class="card">
-                <div class="card-body">
-                  <h1 class="card-title font-weight-bold">EDUCATION</h1>
-                  <div id="content">
-                    <ul class="timeline">
-                      <li class="event" data-date="Agost 2021 - Now">
-                        <h3>MITxPRO</h3>
-                        <p>Full Stack Development with MERN</p>
-                      </li>
-                      <li class="event" data-date="Finished 2021">
-                        <h3>Asociación Cultural Peruano Británica - INGLÉS</h3>
-                        <p>Intermediate-Advanced</p>
-                      </li>
-                      <li class="event" data-date="Finished 2019">
-                        <h3>Universidad Nacional de Ingeniería</h3>
-                        <p>
-                          Bachelor of Science in Telecommunications Engineering
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section class="timeline">
+        <title>EDUCATION</title>
+        <h1 class="timeline__title">EDUCATION</h1>
+        <div class="timeline__container">
+          <ul>
+            <li>
+              <h3 class="timeline__subtitle">MITxPRO</h3>
+              <p>Full Stack Development with MERN</p>
+              <a href="#">Read more</a>
+              <span class="timeline__circle"></span>
+              <span class="timeline__date">June 2022</span>
+            </li>
+            <li>
+              <h3 class="timeline__subtitle">Asociación Cultural Peruano Británica</h3>
+              <p>English (Intermediate-Advanced)</p>
+              <a href="#">Read more</a>
+              <span class="timeline__circle"></span>
+              <span class="timeline__date">March 2021</span>
+            </li>
+            <li>
+              <h3 class="timeline__subtitle">Universidad Nacional de Ingeniería</h3>
+              <p>Bachelor of Science in Telecommunications Engineering</p>
+              <a href="#">Read more</a>
+              <span class="timeline__circle">
+              <span class="timeline__date">Dic 2019</span>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
