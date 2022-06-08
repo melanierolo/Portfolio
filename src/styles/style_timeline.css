@@ -1,0 +1,109 @@
+.timeline {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+}
+
+.timeline .timeline__tittle {
+  font-size: 2.5rem;
+  font-weight: 700 !important;
+  font-weight: bold;
+  color: #212529;
+  position: relative;
+}
+
+/*Container*/
+.timeline__container {
+  width: 70%;
+  height: auto;
+  position: relative;
+  margin: 30px 0 30px 0;
+}
+/* timeline - line*/
+.timeline__container::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 50%;
+  background-image: linear-gradient(260deg, #270a3e 46%, #451a3e 10%);
+}
+.timeline__container ul {
+  list-style: none;
+}
+
+.timeline__container ul li {
+  width: 50%;
+  height: auto;
+  padding: 15px 20px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 15px#000;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.timeline__container ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-50px);
+}
+
+.timeline__container ul li:nth-child(even) {
+  float: right;
+  clear: left;
+  transform: translateX(20px);
+}
+
+.timeline__container ul li .timeline__subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  color: #451a3e;
+}
+ul li p {
+  font-size: 17px;
+  color: #555;
+  margin: 7px 0;
+  line-height: 23px;
+}
+
+.timeline__container ul li a {
+  font-size: 15px;
+  color: #451a3e;
+  text-decoration: none;
+}
+
+ul li .timeline__date {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  width: 135px;
+  border-radius: 15px;
+  color: whitesmoke;
+  background-image: -webkit-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  background-image: -moz-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  background-image: -o-linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  background-image: linear-gradient(270deg, #451a3e 0%, #270a3e 46%);
+  display: grid;
+  place-items: center;
+}
+
+/*timeline - circle*/
+/*
+.timeline__circle::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: -17px;
+  background-color: #270a3e;
+  border: 4px solid #451a3e;
+  top: 0px;
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(0%, -60%);
+}
+*/
