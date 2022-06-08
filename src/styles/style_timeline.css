@@ -23,7 +23,7 @@
   position: relative;
   margin: 30px 0 30px 0;
 }
-
+/* timeline - line*/
 .timeline__container::before {
   content: "";
   position: absolute;
@@ -90,3 +90,20 @@ ul li .timeline__date {
   display: grid;
   place-items: center;
 }
+
+/*timeline - circle*/
+/*
+.timeline__circle::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: -17px;
+  background-color: #270a3e;
+  border: 4px solid #451a3e;
+  top: 0px;
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(0%, -60%);
+}
+*/
