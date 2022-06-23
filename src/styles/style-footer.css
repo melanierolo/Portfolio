@@ -35,9 +35,9 @@ footer {
 }
 
 .footer__copyright {
-  background: #451a3e;
+  background: #270a33;
   grid-column: 1/6;
-  text-align: left;
+  text-align: center;
   font-size: 15px;
   color: whitesmoke;
   height: auto;
@@ -55,6 +55,7 @@ footer {
     "logo link1 link2 link3 social"
     "copyright copyright copyright copyright copyright";
   color: whitesmoke;
+  padding: 0.5rem 1rem;
 }
 .container_footer a {
   text-decoration: none;
@@ -85,7 +86,7 @@ footer {
   }
   .footer__copyright {
     font-size: 12px;
-    text-align: left;
+    text-align: center;
     height: 40px;
   }
 }
