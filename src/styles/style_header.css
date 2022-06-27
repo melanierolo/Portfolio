@@ -98,6 +98,10 @@ body {
   display: block;
   transition: 0.3s;
 }
+/*overlay-content___a:hover - a link when the user mouses over it*/
+.overlay-content a:hover {
+  text-decoration: none;
+}
 
 .overlay a:hover,
 .overlay a:focus {
@@ -109,6 +113,10 @@ body {
   top: 20px;
   right: 45px;
   font-size: 60px;
+}
+/*close-menu___a:hover - a link when the user mouses over it*/
+.close_menu:hover {
+  text-decoration: none;
 }
 
 @media screen and (max-height: 450px) {
