@@ -87,6 +87,6 @@ footer {
   .footer__copyright {
     font-size: 12px;
     text-align: center;
-    height: 40px;
+    height: auto;
   }
 }
