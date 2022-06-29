@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/89095047/140972110-e0cb5282-c8a7-4384-
 -Navigation Bar
 -Responsive web application
 
-[Portfolio.gif](src/assets/gifs/portfolio.gif)
+src/assets/gifs/portfolio.gif
 
 ## License information:
 
