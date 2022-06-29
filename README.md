@@ -12,7 +12,8 @@ It's a repository to show all my projects.That I have worked on MIT Full Stack D
   <li>Projects page</li>
   <li>Responsive web application</li>
 </ul>
-![portfolio.gif](src/assets/gifs/portfolio.gif)
+
+![portfolio-features](src/assets/gifs/portfolio.gif)
 
 ## How to run:
 
