@@ -1,4 +1,5 @@
 # GitHub Portfolio Project
+
 ## Description:
 
 It's a repository to show all my projects.That I have worked on MIT Full Stack Development with MERN course
@@ -12,7 +13,17 @@ It's a repository to show all my projects.That I have worked on MIT Full Stack D
 
 https://user-images.githubusercontent.com/89095047/140972110-e0cb5282-c8a7-4384-95af-970fc0af5b77.mp4
 
-## License information: 
+## Features
+
+-Pages & Navigation
+-Landing page
+-Projects page
+-Navigation Bar
+-Responsive web application
+
+[Portfolio.gif](src/assets/gifs/portfolio.gif)
+
+## License information:
 
 Copyright (c) 2021 Melanie
 
