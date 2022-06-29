@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/89095047/140972110-e0cb5282-c8a7-4384-
 -Navigation Bar
 -Responsive web application
 
-src/assets/gifs/portfolio.gif
+https://github.com/melanierolo/Portfolio/blob/developMelanie/src/assets/gifs/portfolio.gif
 
 ## License information:
 
