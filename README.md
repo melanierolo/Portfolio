@@ -15,13 +15,12 @@ https://user-images.githubusercontent.com/89095047/140972110-e0cb5282-c8a7-4384-
 
 ## Features
 
--Pages & Navigation
--Landing page
--Projects page
--Navigation Bar
--Responsive web application
-
-https://github.com/melanierolo/Portfolio/blob/developMelanie/src/assets/gifs/portfolio.gif
+<ul>
+  <li>Pages & Navigation</li>
+  <li>Landing page</li>
+  <li>Projects page</li>
+  <li>Responsive web application</li>
+</ul>
 
 ## License information:
 
